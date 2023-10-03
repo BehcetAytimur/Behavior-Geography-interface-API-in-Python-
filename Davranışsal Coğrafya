@@ -3,8 +3,6 @@ Türkçe ve İngilizce açıklamalar olarak hazırlanmıştır.
 
 Behavior Geography Interface Implementation
 
-Default (GPT-3.5)
-
 User
 Write a function of the data entry to the below coding as that written;
 python
@@ -79,7 +77,6 @@ Also, please note that this is a basic example and there are many ways to improv
 Oct 03 11:30 AM
 
 
-ChatGPT
 The code you provided is a basic example of a behavior geography interface in Python using the tkinter library for the graphical user interface, geopandas for working with geospatial data, and matplotlib for data visualization. The interface allows users to enter a location, retrieves geospatial data for that location, and plots it on a map.
 
 To complete this code, you'll need to implement the get_geodataframe method to retrieve actual geospatial data based on the user's input. In the example you provided, a dummy GeoDataFrame is used, but you should replace it with a mechanism to fetch real geographic data for the entered location.
@@ -178,7 +175,6 @@ def get_geodataframe(self, location):
     except Exception as e:
         raise e
 
-ChatGPT
 Bu Python kodu, bir davranış coğrafyası uygulamasının temel bir arayüzünü oluşturuyor. Bu arayüzü açıklayalım:
 
 İlk olarak, gerekli kütüphaneleri içe aktarıyoruz:
@@ -261,7 +257,7 @@ Son olarak, kodunuzu kullanmak için get_geodataframe yöntemini gerçek coğraf
 
 
 
-PYTHON DİLİNDE HAZIRLANMIŞ ARAYÜZ
+# PYTHON DİLİNDE HAZIRLANMIŞ ARAYÜZ
 
 python
 import tkinter as tk
@@ -458,7 +454,6 @@ With this modification, the get_geodataframe method will fetch and return a GeoD
 
 Behavior Geography Interface Implementation
 
-Default (GPT-3.5)
 
 User
 Write a function of the data entry to the below coding as that written;
@@ -536,7 +531,6 @@ Also, please note that this is a basic example and there are many ways to improv
 Oct 03 11:30 AM
 
 
-ChatGPT
 The code you provided is a basic example of a behavior geography interface in Python using the tkinter library for the graphical user interface, geopandas for working with geospatial data, and matplotlib for data visualization. The interface allows users to enter a location, retrieves geospatial data for that location, and plots it on a map.
 
 To complete this code, you'll need to implement the get_geodataframe method to retrieve actual geospatial data based on the user's input. In the example you provided, a dummy GeoDataFrame is used, but you should replace it with a mechanism to fetch real geographic data for the entered location.
@@ -561,7 +555,6 @@ def get_geodataframe(self, location):
 Remember to replace 'path_to_your_shapefile.shp' with the actual path to your shapefile or provide the appropriate data source.
 
 With this modification, the get_geodataframe method will fetch and return a GeoDataFrame with real geographic data based on the user's input.
-
 
 
 User
